@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background: grey;
+
+}
+
+
+/*-----Css for Services -------*/
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2px;
+    max-width: auto;
+    margin: 0 auto;
+    position: none;
+}
+
+.content div {
+    padding-bottom: 30px;
+    background: #333;
+}
+
+/*-------NavBar--------*/
+#nav {
+    grid-column: 1/13;
+    box-shadow: 1px 2px 0px 0px yellow;
+}
+
+#nav h1 {
+    color: #fff;
+    font-size: 3rem;
+    padding: 0;
+    margin: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #3bbcde;
+}
+
+#nav a:hover {
+    color: red;
+    cursor: pointer;
+    background: yellow;
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 3px 0px pink;
+}
+
+/*----X---NavBar---X-----*/
+#header {
+    grid-column: 4/13;
+    grid-row: 2/5;
+    background: grey;
+}
+
+#header p {
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header img {
+    width: 60%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#aside {
+    grid-column: 1/4;
+    grid-row: 2/5;
+    background: gray;
+    -ms-grid-column-align: stretch;
+}
+
+#aside img {
+    margin-top: 10px;
+    padding-top: 2px;
+    width: 90%;
+    grid-column: 1/3;
+    border-radius: 50px;
+}
+
+#main {
+    grid-column: 1/13;
+    grid-row: 5/8;
+    background: grey;
+
+}
+
+#main img {
+    grid-gap: 5px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#section {
+    grid-column: 1/13;
+    grid-row: 8/10;
+    background: grey;
+}
+
+#section img {
+    margin-top: 50px;
+    padding: 10px;
+    width: 35%;
+    border-radius: 30px;
+}
+
+#footer {
+    grid-column: 1/13;
+    grid-row: 10/12;
+    color: white;
+
+}
+
+#footer img {
+    width: 25%;
+}
